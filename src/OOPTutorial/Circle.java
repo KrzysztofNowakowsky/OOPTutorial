@@ -3,6 +3,7 @@ package OOPTutorial;
 class Circle {
      private double radius;
      private String color;
+
      public Circle() {
         radius = 1.0;
         color = "red";
@@ -29,5 +30,8 @@ class Circle {
      }
      public void setColor(String newColor){
       this.color = newColor;
+     }
+     public String toString(){
+      return "Circle[radius = "+this.radius+"color = "+this.color+" ]";
      }
 }
