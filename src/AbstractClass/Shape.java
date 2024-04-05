@@ -35,6 +35,6 @@ public abstract class Shape {
     abstract double getPerimeter();
 
     public String toString(){
-        return "Shape[ color= "+this.color+ " filled= "+this.filled+" ]";
+        return "Shape[color="+this.color+", filled="+this.filled+"]";
     }
 }

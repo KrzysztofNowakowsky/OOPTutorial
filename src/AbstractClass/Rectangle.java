@@ -48,6 +48,6 @@ public class Rectangle extends Shape {
 
     @Override
     public String toString(){
-        return "Rectangle=["+super.toString()+",width="+this.width+",length="+this.length+"]";
+        return "Rectangle=["+super.toString()+", width="+this.width+", length="+this.length+"]";
     }
 }

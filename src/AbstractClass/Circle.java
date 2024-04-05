@@ -35,6 +35,6 @@ public class Circle extends Shape {
     }
     @Override
     public String toString(){
-        return "Circle=["+super.toString()+",radius="+this.radius+"]";
+        return "Circle=["+super.toString()+", radius="+this.radius+"]";
     }
 }
